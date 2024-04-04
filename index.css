@@ -1,0 +1,92 @@
+body{
+  background-color: rgb(161, 121, 199)
+}
+
+
+.to-do-list{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin-top: 150px;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+button{
+  font-size: 1.4rem;
+  font-weight: lighter;
+  padding: 20px 20px;
+  color: blueviolet;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.add-button{
+  background-color: aqua;
+}
+
+.add-button:hover{
+  background-color: aquamarine;
+}
+
+
+.delete-button{
+  background-color: aqua;
+}
+
+.delete-button:hover{
+  background-color: rgb(255, 127, 133);
+}
+
+.moveUp-button{
+  background-color: aqua;
+}
+
+.moveUp-button:hover{
+  background-color: rgb(172, 127, 255);
+}
+
+.moveDown-button{
+  background-color: aqua;
+}
+
+.moveDown-button:hover{
+  background-color: rgb(168, 255, 127);
+}
+
+input[type="text"]{
+  font-size: 1rem;
+  padding: 12px;
+  border: 2px solid black;
+}
+
+ol{
+  padding: 0;
+}
+
+li{
+  font-size: 2rem;
+  font-weight:bold ;
+  padding: 15px;
+  background-color: hs1(0%, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  flex:1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+.delete-button, .moveDown-button, .moveUp-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
